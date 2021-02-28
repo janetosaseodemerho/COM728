@@ -1,6 +1,6 @@
-def initiate():
-    print("Initiating Justice League protocol...")
-    print("Please identify yourself:")
-    name = input()
-    print(f"The Justice League protocol has now been initiated for you {name}.")
-initiate()
+def unite(num_members):
+    if num_members >= 7:
+        print("The Justice League has been united!")
+    else:
+        print("We need more members.")
+unite(7)
