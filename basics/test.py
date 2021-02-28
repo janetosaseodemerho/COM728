@@ -1,5 +1,6 @@
-def justice(num_members):
-    for members in range(num_members):
-        print("Serving justice...")
-    print("Justice has been served!")
-justice(3)
+def initiate():
+    print("Initiating Justice League protocol...")
+    print("Please identify yourself:")
+    name = input()
+    print(f"The Justice League protocol has now been initiated for you {name}.")
+initiate()
