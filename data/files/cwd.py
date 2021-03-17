@@ -13,5 +13,4 @@ def run():
     print("Processing...")
     cwd()
 
-if __name__== "__main__":
-    run()
+run()
