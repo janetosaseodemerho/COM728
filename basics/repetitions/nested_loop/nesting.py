@@ -13,7 +13,7 @@ for position in range(0, len(sequence), 1):
     letter = sequence[position]
 
     if letter == marker:
-        if (marker1_position == -1):
+        if marker1_position == -1:
             marker1_position = position
         else:
             marker2_position = position
